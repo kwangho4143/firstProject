@@ -14,7 +14,7 @@ public class IncreaseOperatorExample {
 			var1++;
 					//1: ok
 			        //2: 실행x
-		            //3: ok                =>결과값 3 만나옴
+		            //3: ok                
 		}
 		System.out.println(var1);
 		
@@ -22,3 +22,5 @@ public class IncreaseOperatorExample {
 		
   }
 }
+
+

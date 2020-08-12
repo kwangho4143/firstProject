@@ -1,4 +1,4 @@
-package test;
+package com.yedam.test;
 
 public class test05 {
 
