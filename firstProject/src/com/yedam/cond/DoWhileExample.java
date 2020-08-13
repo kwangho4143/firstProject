@@ -6,7 +6,7 @@ public class DoWhileExample {
 		int num = 10;
 		
 		do {
-			System.out.println(num);
+			System.out.println(num); //무조건 한번 실행
 		}while(num >10);
 
 	}
