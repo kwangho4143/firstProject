@@ -1,0 +1,20 @@
+package com.yedam.classes;
+
+public class Cal {
+
+	private int r;
+	private double pi = 3.14;
+	
+	public void setRadius(int r) {
+		if(r<0)
+			r=0;
+	}
+	public int getRadius() {
+		return r;
+	}
+	public double getArea() {
+		double result = pi * r * r;
+		
+		return result;
+	}
+}

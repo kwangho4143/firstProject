@@ -21,7 +21,7 @@ public class exam8 {
 			
 		}
 		System.out.println(array[2].length+ array[1].length+array[0].length);
-		avg = (double)sum/count ;
+		avg = (double)sum/count;
 		System.out.println(sum);
 		System.out.println(avg);
 		
