@@ -27,11 +27,11 @@ public class EmpDAO {
 		}	
 	}
 	
-public void updateEmp(int Id,int sal) {
+public void updateEmp(Employee emp) {
 		
 		Connection conn = DBConnection.getConnection();
 		
-		String sql = "update emp_temp set salary ="+sal +"where employee_id = "+ Id;
+		String sql = "update emp_temp set salary ="+emp.getSalary() +"where employee_id = "+ emp.getEmployeeId();
 		
 		System.out.println(sql);
 		

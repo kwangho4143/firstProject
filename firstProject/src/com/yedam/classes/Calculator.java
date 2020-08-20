@@ -3,7 +3,7 @@ package com.yedam.classes;
 public class Calculator {
 	double pi = 3.14;
 	
-	public int add(int x,int y) {
+	public static int add(int x,int y) {
 		return x+y;		
 	}
 	
