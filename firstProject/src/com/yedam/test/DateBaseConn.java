@@ -1,20 +1,21 @@
-package com.yedam.database;
+package com.yedam.test;
+
+
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DBConnection {
-	public static Connection dbConn;
+public class DateBaseConn {
+public static Connection dbConn;
     
     public static Connection getConnection()
     {
         Connection conn = null;
         try {
-            String user = "hr"; 
-            String pw = "hr";
-            //String user = "test"; 
-            //String pw = "1234";
+            
+            String user = "test"; 
+            String pw = "1234";
             String url = "jdbc:oracle:thin:@localhost:1521:xe";
             
             Class.forName("oracle.jdbc.driver.OracleDriver");        
@@ -32,6 +33,5 @@ public class DBConnection {
         }
         return conn;     
     }
-
 
 }
