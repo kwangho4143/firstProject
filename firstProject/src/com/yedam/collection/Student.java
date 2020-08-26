@@ -1,6 +1,6 @@
 package com.yedam.collection;
 
-public class Student {
+public class Student implements Comparable<Student> {
 	private String name;
 	private int mathScore;
 	private int engScore;
@@ -28,5 +28,14 @@ public class Student {
 		this.mathScore = mathScore;
 		this.engScore = engScore;
 	}
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public int compareTo(Student o) {
+		// TODO Auto-generated method stub
+		return this.mathScore-o.mathScore;
+	}
+
 	
 }
