@@ -20,6 +20,7 @@ public class BilServiceImpl implements BilService {
 	@Override
 	public void modBil(Bilboard bil) {
 		// TODO Auto-generated method stub
+
 		dao.updateBil(bil);
 	}
 
