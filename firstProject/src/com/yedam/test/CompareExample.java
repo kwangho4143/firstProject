@@ -12,7 +12,6 @@ public class CompareExample {
 			// TODO Auto-generated method stub
 			return Integer.compare(a.sno,b.sno);
 		}
-		
 	}
 	public static void main(String[] args) {
 		Student s1 = new Student(1);
